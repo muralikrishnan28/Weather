@@ -1,0 +1,18 @@
+body {
+  background-color: rgba(220, 220, 220, 0.986);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.677);
+}
+input {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.custom-width {
+  width: 75%;
+  min-width: 380px;
+}
+@media (min-width: 650px) {
+  .custom-width{
+    width: 30%;
+  }
+}
