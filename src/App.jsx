@@ -10,7 +10,6 @@ import snowIcon from "./assets/snow.png";
 import searchIcon from "./assets/search.png";
 import stormtIcon from "./assets/storm.png";
 import drizzleIcon from "./assets/drizzle.png";
-import "./App.css";
 
 const Loading = () => {
   return (
