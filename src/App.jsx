@@ -10,7 +10,6 @@ import snowIcon from "./assets/snow.png";
 import searchIcon from "./assets/search.png";
 import stormtIcon from "./assets/storm.png";
 import drizzleIcon from "./assets/drizzle.png";
-import "./App.css";
 
 const Loading = () => {
   return (
@@ -88,7 +87,7 @@ function App() {
   };
 
   return (
-    <div className="d-flex align-items-center justify-content-center vh-100 mt-5">
+    <div className="d-flex align-items-center justify-content-center vh-100 mt-2">
       <div className="bg-white rounded pt-4 px-2 custom-width">
         <div className="input-group">
           <input
