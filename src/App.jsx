@@ -55,7 +55,6 @@ function App() {
   }, []);
 
   const Search = (e) => {
-    console. log("Search function called with key:", e.key);
     if (!e.key || e.key === "Enter") {
       ApiCall();
     }
