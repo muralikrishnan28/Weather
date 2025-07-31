@@ -56,7 +56,9 @@ function App() {
 
   const Search = (e) => {
     if (!e.key || e.key === "Enter") {
-      ApiCall();
+      if(text.length > 0){
+        ApiCall();
+      }
     }
   };
 
